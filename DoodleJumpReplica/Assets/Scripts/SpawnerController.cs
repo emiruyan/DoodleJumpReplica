@@ -19,7 +19,7 @@ public class SpawnerController : MonoBehaviour
    
     void Update()
     {
-        transform.position += Vector3.up * speed * Time.deltaTime; //arttırarak hangi hızda ekleyeceği
+        transform.position += Vector3.up * speed * Time.deltaTime; //yukarı doğru hangi hızda ekleyeceği
     }
 
     private void Spawn() //Prefabları spawnlayacağımız fonksiyon
