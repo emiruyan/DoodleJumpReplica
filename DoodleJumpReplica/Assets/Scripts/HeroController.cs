@@ -6,7 +6,7 @@ using UnityEngine;
 public class HeroController : MonoBehaviour
 {
     public Rigidbody2D rb;//Rigidbody 2d eriştik    
-    public float speed; //Float türüne bir speed değişkeni oluşturduk
+    public float speed; //Float tipinde speed adında bir değişken oluşturduk
 
 
     private void Update()
