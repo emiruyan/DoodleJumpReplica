@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class HeroController : MonoBehaviour
 {
-    public Rigidbody2D rb;//Rigidbody 2d eriştik    
-    public float speed; //Float tipinde speed adında bir değişken oluşturduk
+    [SerializeField] private Rigidbody2D rb;//Rigidbody 2d eriştik    
+    [SerializeField] private float speed; //Float tipinde speed adında bir değişken oluşturduk
 
 
     private void Update()
